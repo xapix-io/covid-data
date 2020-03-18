@@ -73,34 +73,62 @@ Quality of Data:
 
 
 #### 3. DXY China
-Name: diagnosed, cumulative, death, cured by region<br/>
-Source: NCOV DXY (Chinese online community for physicians)<br/>
-Retrieved through: https://ncov.dxy.cn/ncovh5/view/pneumonia<br/>
-Available Data (insert data table)<br/>
+Name: diagnosed, cumulative, death, cured by region
+Source: NCOV DXY (Chinese online community for physicians)
+Retrieved through: https://ncov.dxy.cn/ncovh5/view/pneumonia
 Quality of Data:<br/>
-Coverage: ?<br/>
-Update mechanism: ?<br/>
-Way data is provided: Original source<br/>
-Notes:<br/>
+Coverage: mainly China<br/>
+Update mechanism: tbd<br/>
+Way data is provided: Original source <br/>
 
 #### 4. Tencent
-Name: cum diagnosed, confirmed diagnoses, cum cured, cum death, existing severe, overseas input<br/>
+Name: cum diagnosed, confirmed diagnoses, cum cured, cum death, existing severe, overseas input
 Source: Tencent<br/>
-Retrieved through: https://news.qq.com/zt2020/page/feiyan.htm#/<br/>
-Available Data (insert data table)<br/>
-Quality of Data:<br/>
-Coverage: ?<br/>
-Update mechanism: ?<br/>
-Way data is provided: ???<br/>
-Notes:<br/>
+Retrieved through: https://news.qq.com/zt2020/page/feiyan.htm#/ <br/>
+Quality of Data: <br/>
+Coverage: mainly China and selected countries <br/>
+Update mechanism: tbd <br/>
+Way data is provided: tbd <br/>
 
 #### 5. WHO
-Name: cum diagnosed, confirmed diagnoses, cum cured, cum death, existing severe, overseas input<br/>
-Source: WHO<br/>
-Retrieved through: https://services.arcgis.com/5T5nSi527N4F7luB/arcgis/rest/services/COVID_19_HistoricCasesByCountry(pt)View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CNewCase%2CDateOfDataEntry&orderByFields=DateOfDataEntry%20asc&resultOffset=2000&resultRecordCount=2000&cacheHint=true<br/>
-Available Data (insert data table)<br/>
-Quality of Data:<br/>
-Coverage: ?<br/>
-Update mechanism: ?<br/>
-Way data is provided: json<br/>
-Notes: showcase https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd<br/>
+Name: cum diagnosed, confirmed diagnoses, cum cured, cum death, existing severe, overseas input  <br/>
+Source: WHO  <br/>
+Retrieved through: https://services.arcgis.com/5T5nSi527N4F7luB/arcgis/rest/services/COVID_19_HistoricCasesByCountry(pt)View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CNewCase%2CDateOfDataEntry&orderByFields=DateOfDataEntry%20asc&resultOffset=2000&resultRecordCount=2000&cacheHint=true  <br/>
+
+Quality of Data:  <br/>
+Coverage: Global  <br/>
+Update mechanism: tbd  <br/>
+Way data is provided: json  <br/>
+Notes: Visual showcase https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd  
+
+"name": "DateOfDataEntry",
+
+      "type": "esriFieldTypeDate",
+
+      "alias": "DateOfDataEntry",
+
+      "sqlType": "sqlTypeOther",
+
+      "length": 8,
+
+      "domain": null,
+
+      "defaultValue": null
+
+    }
+
+  ],
+
+  "features": [
+
+    {
+
+      "attributes": {
+
+        "OBJECTID": 216,
+
+        "NewCase": 85,
+
+        "DateOfDataEntry": 1583971200000
+
+
